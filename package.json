@@ -1,14 +1,25 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://salty-shelf-45394.herokuapp.com/ | https://git.heroku.com/salty-shelf-45394.git",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "clog": "^0.1.6",
+    "express": "^4.16.4",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIMacGyverII/NoteTakerApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IIMacGyverII/NoteTakerApp/issues"
+  },
+  "homepage": "https://github.com/IIMacGyverII/NoteTakerApp#readme"
 }
